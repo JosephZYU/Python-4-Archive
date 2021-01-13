@@ -13,7 +13,7 @@ class Employee:
 
     @property
     def email(self):
-        return '{}.{}@email.com'.format(self.first, self.last)
+        return '{}.{}@aws.com'.format(self.first, self.last)
 
     @property
     def fullname(self):

@@ -1,0 +1,41 @@
+S1 - basic test - https://youtu.be/6tNS--WetLI?t=150
+
+S2 - context manger - https://youtu.be/6tNS--WetLI?t=1065
+
+    🎯 - what exactly is context manger?
+    
+
+S3 - Employee Class - https://youtu.be/6tNS--WetLI?t=1100
+
+S4 - Set up  - https://youtu.be/6tNS--WetLI?t=1335 🌟
+
+S5 - Tear down - https://youtu.be/6tNS--WetLI?t=1535 🌟
+    
+    """ work with class! rathern instance of class (self)!"""
+    Master the concept of 
+    🎯 - @classmethod - https://youtu.be/6tNS--WetLI?t=1635 
+    🎯 - OOP - https://youtube.com/playlist?list=PL-osiE80TeTsqhIuOqKhwlXsIBIdSeYtc
+
+
+S6 - Testing w/ No Control Over website - https://youtu.be/6tNS--WetLI?t=1720 - PENDING Optional
+
+    """
+    the information from that website is
+    something that we would want to mock
+    because we don't want the success of our
+    tests to depend on that website being up
+    so we only care that the get method was
+    called with the correct URL and that our
+    code behaves correctly whether the
+    response is okay and whether the
+    response is not okay
+    """
+
+S7 - Best Practices - https://youtu.be/6tNS--WetLI?t=2215
+
+🧠 TestCalc(unittest.TestCase)
+🧠 self.assertEquals(module.func(x, y), expected_res)
+
+
+🧭 fundamentally - unittest is ALL about assertEqual (NOTE: assertEqual w/o S!)
+
