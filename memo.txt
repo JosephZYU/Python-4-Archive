@@ -1,13 +1,20 @@
-S1 - basic test - https://youtu.be/6tNS--WetLI?t=150
+S1 - basic test - https://youtu.be/6tNS--WetLI?t=150 ✅⏩
 
-S2 - context manger - https://youtu.be/6tNS--WetLI?t=1065
+S2 - context manger - https://youtu.be/6tNS--WetLI?t=1065 ⏩⏩
 
-    🎯 - what exactly is context manger?
+    What exactly is context manger?
+    🎯 - review - https://youtu.be/-aKFBoZpiqA 
+
     
 
-S3 - Employee Class - https://youtu.be/6tNS--WetLI?t=1100
+S3 - Employee Class - https://youtu.be/6tNS--WetLI?t=1100 ✅✅
 
 S4 - Set up  - https://youtu.be/6tNS--WetLI?t=1335 🌟
+
+    🎯 - basic - what's standard format in writing class in Python❓   
+
+        Ref - https://realpython.com/python-pep8/#why-we-need-pep-8 ⏩✅ - memo_pep8.py
+
 
 S5 - Tear down - https://youtu.be/6tNS--WetLI?t=1535 🌟
     
@@ -32,6 +39,8 @@ S6 - Testing w/ No Control Over website - https://youtu.be/6tNS--WetLI?t=1720 - 
     """
 
 S7 - Best Practices - https://youtu.be/6tNS--WetLI?t=2215
+
+    should be able to run ANY test by itself - which is independet of the other tests
 
 🧠 TestCalc(unittest.TestCase)
 🧠 self.assertEquals(module.func(x, y), expected_res)
