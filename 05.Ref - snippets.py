@@ -1,3 +1,5 @@
+# https://github.com/CoreyMSchafer/code_snippets/blob/master/Python-Regular-Expressions/snippets.txt
+
 """
 .       - Any Character Except New Line
 \d      - Digit (0-9)
