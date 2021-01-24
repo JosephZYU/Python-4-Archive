@@ -1,3 +1,15 @@
+"""
+
+NOTE:
+
+    🧭 backward slash is the real-deal!
+
+    \ -> "escape"
+
+
+"""
+
+
 import re
 
 text_to_search = '''
@@ -47,6 +59,7 @@ for match in matches:
 
 print(text_to_search[1:4])
 print(text_to_search[28:31])
+print(text_to_search[142:153])
 
 
 """

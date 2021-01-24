@@ -1,5 +1,8 @@
 # find out unique character (E.g. numbers, digis, signs) from a given text
 
+# 🎯 ⏭⏭⏭count the frequency of each character given the text
+# with regard to the the count from the whiteboard
+
 
 import re
 
