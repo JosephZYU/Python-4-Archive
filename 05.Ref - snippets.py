@@ -19,11 +19,11 @@ $       - End of a String
 |       - Either Or
 ( )     - Group
 
-Quantifiers:
-*       - 0 or More
-+       - 1 or More
-?       - 0 or One
-{3}     - Exact Number
+Quantifiers: 🧠
+*       - 0 or More 任意个数
++       - 1 or More 至少1个或更多
+?       - 0 or One 可有可无
+{3}     - Exact Number 
 {3,4}   - Range of Numbers (Minimum, Maximum)
 
 

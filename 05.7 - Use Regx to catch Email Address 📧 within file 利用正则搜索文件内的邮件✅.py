@@ -5,11 +5,8 @@ import re
 
 from email import emails
 
-# pattern = re.compile(r'[a-zA-Z.-]+@[a-zA-Z]+\.(com|edu|net)')
+pattern = re.compile(r'[a-zA-Z0-9.-]+@[a-zA-Z0-9-_]+\.\w+')  # 200
+# pattern = re.compile(r'[a-zA-Z0-9.-]+@[a-zA-Z0-9-_]+\.[a-z]{2}[a-z]?')  # 200
 
-pattern = re.compile(r'[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+')
-
-matches = pattern.finditer(emails)
-
-for match in matches:
+for match in pattern.findall(emails):
     print(match)

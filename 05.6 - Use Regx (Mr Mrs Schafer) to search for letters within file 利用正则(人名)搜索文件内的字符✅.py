@@ -33,7 +33,7 @@ pattern = re.compile(r'[^b]at')
 pattern = re.compile(r'M[rs]s?\.?\s[A-Z]\w*')  # ⭐️
 
 # Use group for better solution *Advanced
-# https://youtu.be/K8L6KVGG-7o?t=1910 ⏭⏭⏭
+# https://youtu.be/K8L6KVGG-7o?t=1910
 
 # pattern = re.compile(r'(Mr|Ms|Mrs)\.?')
 
