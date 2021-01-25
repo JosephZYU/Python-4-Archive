@@ -1,9 +1,11 @@
+# https://youtu.be/K8L6KVGG-7o?t=450
+
 import os
 import re
 
 from text import text_to_search
 
-# 🧭 🧠 list of re.compile(r'')
+# 🧭 🧠 list of re.compile(r'\')
 
 pattern = re.compile(r'.')  # Any character except a new line
 
