@@ -6,7 +6,7 @@ from text import text_to_search, sentence
 
 pattern = re.compile(r'\d\d\d\d')
 
-pattern = re.compile(r'\d{3}.\d{3}.\d{4}')
+pattern = re.compile(r'\d{3}.\d{3}.\d{4}')  # ⭐️
 
 # Create of list / set of matches (iterable)
 

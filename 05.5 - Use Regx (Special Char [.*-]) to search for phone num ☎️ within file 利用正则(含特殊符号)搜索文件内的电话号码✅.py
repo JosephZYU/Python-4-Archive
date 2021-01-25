@@ -11,12 +11,21 @@ pattern = re.compile(r'\d{3}\*\d{3}\*\d{4}')
 # Search for specific special character within Regx 精准搜索🔍特殊符号
 # 🧠 r'\d{3}[.*-]\d{3}[.*-]\d{4}' -> [.*-] ⭐️
 
-pattern = re.compile(r'\d{3}[.*-]\d{3}[.*-]\d{4}')  # 10
+# pattern = re.compile(r'[89]00.\d{3}.\d{4}')
+
+# pattern = re.compile(r'\d{3}[.*-]\d{3}[.*-]\d{4}')  # 10
 # pattern = re.compile(r'\d{3}[*-]\d{3}[*-]\d{4}')  # 8
-# pattern = re.compile(r'\d{3}[-]\d{3}[-]\d{4}')  # 6
+# pattern = re.compile(r'\d{3}[-.]\d{3}[-.]\d{4}')  # 8
 # pattern = re.compile(r'\d{3}[.*]\d{3}[.*]\d{4}')  # 4
 # pattern = re.compile(r'\d{3}[*]\d{3}[*]\d{4}')  # 2
 # pattern = re.compile(r'\d{3}[.]\d{3}[.]\d{4}')  # 2
+
+pattern = re.compile(r'[8]00[-.]\d{3}[-.]\d{4}')  # starts ONLY with 800
+
+pattern = re.compile(r'[89]00[-.]\d{3}[-.]\d{4}')  # starts with 800 or 900
+
+# starts with any number between 1 to 7
+pattern = re.compile(r'[1-7]00.\d{3}.\d{4}')
 
 # Create of list / set of matches (iterable)
 

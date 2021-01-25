@@ -1,5 +1,20 @@
 """
 
+🧭 Always use r'\d.' -> use dot . to grab all possible characters first!
+
+🧭 [a-zA-Z0-9_] 是一种对与\w的精细化控制
+
+# MOST-COMMON search ⭐️ (a-z, A-Z, 0-9, _)
+
+pattern = re.compile(r'\w')  # 256
+
+pattern = re.compile(r'[a-zA-Z0-9_]')  # 256 = 104 + 42 + 110
+
+# pattern = re.compile(r'[a-z]')  # 104
+# pattern = re.compile(r'[A-Z]')  # 42
+# pattern = re.compile(r'[0-9]')  # 110
+# pattern = re.compile(r'[_]')  # 0
+
 
 🎯 Optional - 05
 
