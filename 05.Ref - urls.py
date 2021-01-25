@@ -18,4 +18,7 @@ print(subbed_urls)
 matches = pattern.finditer(urls)
 
 for match in matches:
+    print(match.group(1))
+    print(match.group(2))
     print(match.group(3))
+    print()
