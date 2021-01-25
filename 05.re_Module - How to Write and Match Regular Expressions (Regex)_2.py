@@ -16,7 +16,7 @@ from text import text_to_search, sentence
 # print('\ttab')  # \t -> as if we're using tab on our keyboard
 # print(r'\tab')  # raw string -> always interpret string literaly 解析文字需要表的含义
 
-# 🧭 whenever needs Regx -> r'\' 需要用正则表达的时候必须使用r'
+# 🧭 whenever needs Regx -> r'\' 需要用正则表达的时候必须使用r' ⭐️
 pattern = re.compile(r'\d{2}.*py')
 
 # 🧭 findall 🆚 finditer
@@ -31,11 +31,6 @@ matches = pattern.findall(text_to_search)
 for match in matches:
     print(match)  # 'str'
 
-
-# ✅ 200
-for f in os.listdir():
-    if re.search(pattern, f):
-        print(f)
 
 """
 def purge(dir, pattern):
