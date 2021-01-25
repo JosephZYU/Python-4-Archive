@@ -1,10 +1,9 @@
+# https://youtu.be/K8L6KVGG-7o?t=1995
+
+import os
 import re
 
-emails = '''
-CoreyMSchafer@gmail.com
-corey.schafer@university.edu
-corey-321-schafer@my-work.net
-'''
+from email import emails
 
 # pattern = re.compile(r'[a-zA-Z.-]+@[a-zA-Z]+\.(com|edu|net)')
 

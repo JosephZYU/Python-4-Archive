@@ -23,6 +23,20 @@ pattern = re.compile(r'[^b]at')
 
 # -> ['cat', 'mat', 'pat']
 
+
+# Working with text *Advanced
+# https://youtu.be/K8L6KVGG-7o?t=1705
+
+
+# 🧠 (r'M[rs]s?\.? [A-Z]\w*') -> \w* (catch ALL the rest of words)
+
+pattern = re.compile(r'M[rs]s?\.?\s[A-Z]\w*')  # ⭐️
+
+# Use group for better solution *Advanced
+# https://youtu.be/K8L6KVGG-7o?t=1910 ⏭⏭⏭
+
+# pattern = re.compile(r'(Mr|Ms|Mrs)\.?')
+
 # Create of list / set of matches (iterable)
 
 li_matches = pattern.findall(text_to_search)
@@ -39,9 +53,9 @@ print(f'length of unique matches: {len(set_matches)}')
 # Use context manager to open 🗄
 # 🧠 with open('file.ext', 'r') as f:
 
-# with open('data.txt', 'r') as f:
-#     contents = f.read()
-#     matches = pattern.findall(contents)
+with open('data.txt', 'r') as f:
+    contents = f.read()
+    matches = pattern.findall(contents)
 
-#     for match in matches:
-#         print(match)
+    for match in matches:
+        print(match)
