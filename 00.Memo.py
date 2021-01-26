@@ -25,6 +25,22 @@ pattern = re.compile(r'[a-zA-Z0-9_]')  # 256 = 104 + 42 + 110
 
 
 
+🎯 https://stackoverflow.com/a/1548720/15063197
+
+import os, re
+
+def purge(dir, pattern):
+    for f in os.listdir(dir):
+        if re.search(pattern, f):
+            os.remove(os.path.join(dir, f))
+
+
+
+🎯 Optional - count the frequency of each character given the text
+# with regard to the the count from the whiteboard
+
+
+
 🎯 Optional - 05
 
 Given the set:
