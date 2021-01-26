@@ -16,9 +16,13 @@ pattern = re.compile(r'[a-zA-Z0-9_]')  # 256 = 104 + 42 + 110
 # pattern = re.compile(r'[_]')  # 0
 
 
-🎯 pattern.findall() 🆚 pattern.finditer()
 
-    究竟异同点在哪里？很多findall无法呈现的内容，finditer还是可以提取，但需要通过group加工
+🧭 pattern.findall() 🆚 pattern.finditer()
+😎 perfer: pattern.finditer() 尽可能多使用finditer获得更丰富的信息
+
+    NOTE: 两者都可以提取
+    https://youtu.be/K8L6KVGG-7o?t=2780
+
 
 
 🎯 Optional - 05
