@@ -3,6 +3,7 @@
 import os
 import re
 
+from text import text_to_search, sentence
 from email import emails
 from url import urls
 
@@ -17,9 +18,6 @@ pattern = re.compile(r'[a-zA-Z0-9.-]+@[a-zA-Z0-9-_]+\.\w+')  # 200
 pattern = re.compile(r'@[a-zA-Z-_]+\.\w+')
 
 
-# for match in pattern.findall(emails):
-#     match = match[match.find('.'):]
-#     print(match)
-
-# 🎯 How to searh for everything starting with 'http'
-# 如何通过锁定抬头，全选锁定（E.g. Shift + Opt + Right）剩余所有text
+for match in pattern.findall(emails):
+    match = match[match.find('.'):]
+    print(match)

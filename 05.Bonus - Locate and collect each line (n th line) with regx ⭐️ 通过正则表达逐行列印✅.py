@@ -39,3 +39,13 @@ def collect_line(source, start_index, width):
 collect_line(lines, 0, 5)  # Email Address - ONLY
 collect_line(lines, 1, 5)  # Phone Number - ONLY
 collect_line(lines, 2, 5)  # Address  - ONLY
+
+# ✅ How to searh for everything starting with 'http'
+# 如何通过锁定抬头，全选锁定（E.g. Shift + Opt + Right）剩余所有text
+
+with open('url.txt', 'r') as f:
+
+    lines = f.readlines()
+
+for line in lines:
+    print(line[:-1])
