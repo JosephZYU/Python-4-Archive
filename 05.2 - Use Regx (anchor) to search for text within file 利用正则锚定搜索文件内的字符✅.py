@@ -13,9 +13,9 @@ pattern = re.compile(r'\BHa')  # \B - NOT starting with a word boundary
 
 pattern = re.compile(r'\BHaHa')
 
-pattern = re.compile(r'^Start')  # ^ - VERY beginning of a string
+pattern = re.compile(r'^Start')  # ^ - VERY beginning of the ENTIRE string
 
-pattern = re.compile(r'end$')  # $ - VERY End of a string
+pattern = re.compile(r'end$')  # $ - VERY End of the ENTIRE string
 
 # Create of list / set of matches (iterable)
 

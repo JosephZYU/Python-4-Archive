@@ -8,7 +8,8 @@ from text import text_to_search, sentence
 # search key-word as case-insensitive
 # 🧠 re.compile(r'', re.I)
 
-pattern = re.compile(r'[\w]{4}', re.I)  # re.IGNORECASE
+pattern = re.compile(r'[a-zA-Z]{4}', re.I)  # re.IGNORECASE
+
 
 # Use pattern.match() to seach for simple (exact) result
 # for match in pattern.finditer(text_to_search):
@@ -21,3 +22,6 @@ print(matches)
 
 for match in matches:
     print(match)
+
+
+print(text_to_search)

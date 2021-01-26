@@ -1,5 +1,8 @@
 """
 
+NOTE: you've ONLY get one shot on the context manager 😎
+
+
 🧭 Always use r'\d.' -> use dot . to grab all possible characters first!
 
 🧭 [a-zA-Z0-9_] 是一种对与\w的精细化控制
