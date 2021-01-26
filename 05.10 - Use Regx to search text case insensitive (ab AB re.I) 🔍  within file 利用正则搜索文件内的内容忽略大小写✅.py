@@ -6,6 +6,7 @@ import re
 from text import text_to_search, sentence
 
 # search key-word as case-insensitive
+# 🧠 re.compile(r'', re.I)
 
 pattern = re.compile(r'[\w]{4}', re.I)  # re.IGNORECASE
 
