@@ -23,15 +23,3 @@ pattern = re.compile(r'@[a-zA-Z-_]+\.\w+')
 
 # 🎯 How to searh for everything starting with 'http'
 # 如何通过锁定抬头，全选锁定（E.g. Shift + Opt + Right）剩余所有text
-
-
-#
-pattern = re.compile(r'http[s]?://(www\.)?(\w+)\.(\w+)')
-
-for match in pattern.finditer(urls):
-    print(match.group(1))
-    print(match.group(2))
-    print(match.group(3))
-    print()
-
-# 42:30
